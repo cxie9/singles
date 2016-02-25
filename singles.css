@@ -1,0 +1,63 @@
+body {
+    font-family: 'Neucha', cursive;
+}
+
+h1 {
+    background-color: #0045CC;
+    font-size: 10vw;
+    font-family: 'Give You Glory', cursive; 
+}
+
+#who {
+    background-color: #0057FF;
+    padding: 10em;
+}
+
+#is {
+    background-color: #4C89FF;
+    padding: 10em;
+}
+
+#she {
+    background-color: #8ACCFF;
+    padding: 10em;
+}
+
+h2 {
+    font-size: 4vw;
+    padding: 10em;
+}
+
+#doodling {
+    background-color: #FAEF32;
+    font-size: 5vw;
+}
+
+
+#dreaming {
+    background-color: #00B7FF;
+    font-size: 5vw;
+}
+
+#writing {
+    background-color: #FF1946;   
+    font-size: 5vw;
+}
+
+#thinking {
+    background-color: #ESD900;
+    font-size: 5vw;
+}
+
+#links {
+    font-family: 'Reenie Beanie', cursive; 
+    font-size: 3vw;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    font-size: 3vw;
+}
