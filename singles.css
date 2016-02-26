@@ -5,7 +5,8 @@ body {
 h1 {
     background-color: #0045CC;
     font-size: 10vw;
-    font-family: 'Give You Glory', cursive; 
+    font-family: 'Trocchi', serif;
+    padding: 0.5em;
 }
 
 #who {
@@ -45,7 +46,7 @@ h2 {
 }
 
 #thinking {
-    background-color: #ESD900;
+    background-color: #ccc;
     font-size: 5vw;
 }
 
@@ -56,8 +57,45 @@ h2 {
 
 img {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
+.cloud{
+    width: 10%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+
 
 figcaption {
     font-size: 3vw;
+    margin-left: 10%;
 }
+
+iframe{
+    width: 100%;
+    height: 45em;
+}
+
+p {
+    margin-left: 10%;
+}
+
+@media all (min-width: 48em) {
+    .flexcontainer {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+    
+    img .flexcontainer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+    
