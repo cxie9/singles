@@ -45,6 +45,10 @@ h2 {
     font-size: 5vw;
 }
 
+.no-audio {
+    display: none;
+}
+
 #thinking {
     background-color: #ccc;
     font-size: 5vw;
@@ -94,7 +98,15 @@ p {
 }
 
 @media all (min-width: 48em) {
-    .flexcontainer {
+
+
+.no-flexbox img{
+    
+    width: 100%;
+    display: block;
+}
+    
+    .flexbox {
         display: -webkit-flex;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -106,7 +118,7 @@ p {
                 flex-direction: column;
     }
     
-    img .flexcontainer {
+    img .flexbox {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -webkit-flex-direction: row;
