@@ -18,13 +18,16 @@ h1 {
 }
 
 h2 {
-    font-size: 4vw;
-    padding: 10em;
+    font-size: 8vw;
+    padding: 0.5em;
 }
 
-p {
+ul {
+    font-family: 'Reenie Beanie', cursive; 
+    font-size: 3vw;
     margin-left: 10%;
 }
+
 
 
 img {
@@ -44,29 +47,20 @@ img {
 }
 
 figcaption {
-    font-size: 3vw;
+    font-size: 5vw;
     margin-left: 10%;
 }
 
-iframe{
-    width: 100%;
-    height: 45em;
-}
-
-
 #who {
     background-color: #0057FF;
-    padding: 10em;
 }
 
 #is {
     background-color: #4C89FF;
-    padding: 10em;
 }
 
 #she {
     background-color: #8ACCFF;
-    padding: 10em;
 }
 
 
@@ -90,11 +84,6 @@ iframe{
 #thinking {
     background-color: #ccc;
     font-size: 5vw;
-}
-
-#links {
-    font-family: 'Reenie Beanie', cursive; 
-    font-size: 3vw;
 }
 
 
