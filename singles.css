@@ -6,9 +6,6 @@
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0} 
 
-
-/*personal CSS starts here*/
-
 body {
     font-family: 'Neucha', cursive;
 }
@@ -20,55 +17,15 @@ h1 {
     padding: 0.5em;
 }
 
-#who {
-    background-color: #0057FF;
-    padding: 10em;
-}
-
-#is {
-    background-color: #4C89FF;
-    padding: 10em;
-}
-
-#she {
-    background-color: #8ACCFF;
-    padding: 10em;
-}
-
 h2 {
     font-size: 4vw;
     padding: 10em;
 }
 
-#doodling {
-    background-color: #FAEF32;
-    font-size: 5vw;
+p {
+    margin-left: 10%;
 }
 
-
-#dreaming {
-    background-color: #00B7FF;
-    font-size: 5vw;
-}
-
-#writing {
-    background-color: #FF1946;   
-    font-size: 5vw;
-}
-
-.no-audio {
-    display: none;
-}
-
-#thinking {
-    background-color: #ccc;
-    font-size: 5vw;
-}
-
-#links {
-    font-family: 'Reenie Beanie', cursive; 
-    font-size: 3vw;
-}
 
 img {
     width: 100%;
@@ -86,14 +43,6 @@ img {
             justify-content: space-around;
 }
 
-.cloud{
-    width: 20%;
-    margin-left: 20%;
-    margin-top: 10%;
-}
-
-
-
 figcaption {
     font-size: 3vw;
     margin-left: 10%;
@@ -104,9 +53,61 @@ iframe{
     height: 45em;
 }
 
-p {
-    margin-left: 10%;
+
+#who {
+    background-color: #0057FF;
+    padding: 10em;
 }
+
+#is {
+    background-color: #4C89FF;
+    padding: 10em;
+}
+
+#she {
+    background-color: #8ACCFF;
+    padding: 10em;
+}
+
+
+
+#doodling {
+    background-color: #FAEF32;
+    font-size: 5vw;
+}
+
+
+#dreaming {
+    background-color: #00B7FF;
+    font-size: 5vw;
+}
+
+#writing {
+    background-color: #FF1946;   
+    font-size: 5vw;
+}
+
+#thinking {
+    background-color: #ccc;
+    font-size: 5vw;
+}
+
+#links {
+    font-family: 'Reenie Beanie', cursive; 
+    font-size: 3vw;
+}
+
+
+.cloud{
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.no-audio {
+    display: none;
+}
+
 
 @media all (min-width: 48em) {
 
