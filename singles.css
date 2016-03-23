@@ -22,13 +22,17 @@ h2 {
     padding: 0.5em;
 }
 
-ul {
-    font-family: 'Reenie Beanie', cursive; 
-    font-size: 3vw;
-    margin-left: 10%;
+p {
+    margin-left: 5%;
+    font-size: 4vw;
 }
 
-
+ul {
+    font-family: 'Reenie Beanie', cursive; 
+    font-size: 6vw;
+    margin-left: 5%;
+    color: antiquewhite;
+}
 
 img {
     width: 100%;
@@ -48,26 +52,26 @@ img {
 
 figcaption {
     font-size: 5vw;
-    margin-left: 10%;
+    margin-left: 5%;
+    padding: 2%;
 }
 
+audio {
+    padding-left: 5%;
+}
 #who {
     background-color: #0057FF;
+    padding-left: 25%;
 }
 
 #is {
     background-color: #4C89FF;
+    padding-left: 50%;
 }
 
 #she {
     background-color: #8ACCFF;
-}
-
-
-
-#doodling {
-    background-color: #FAEF32;
-    font-size: 5vw;
+    padding-left: 75%;
 }
 
 
@@ -76,25 +80,83 @@ figcaption {
     font-size: 5vw;
 }
 
-#writing {
-    background-color: #FF1946;   
-    font-size: 5vw;
+#cloud1 {
+    padding-left: 75%;
+}
+
+#cloud2 {
+    padding-left: 50%;
+}
+
+#cloud3 {
+    padding-left: 25%;
+}
+
+#ellip1 {
+    padding-left: 10%;
+}
+
+#ellip2 {
+    padding-left: 20%;
+}
+
+#ellip3 {
+    padding-left: 30%;
+}
+
+#ellip4 {
+    padding-left: 40%;
+}
+
+#ellip5 {
+    padding-left: 50%;
+}
+
+#think {
+    padding-left: 55%;
+    padding-bottom: 10%;
 }
 
 #thinking {
     background-color: #ccc;
     font-size: 5vw;
 }
+#piano {
+    padding-bottom: 10%;
+    
+}
+
+#pianist {
+    padding-left: 55%;
+}
+
+#writing {
+    background-color: black;
+    color: antiquewhite;
+    font-size: 5vw;
+}
+
+#doodling {
+    background-color: #0045CC;
+    font-size: 5vw;
+}
+
+#bottom {
+    background-color: #98fb98;
+}
 
 
 .cloud{
-    width: 20%;
-    margin-left: 20%;
-    margin-top: 10%;
+    width: 15%;
+    padding: 5vw;
 }
 
 .no-audio {
     display: none;
+}
+
+.list {
+    padding-bottom: 10%;
 }
 
 
